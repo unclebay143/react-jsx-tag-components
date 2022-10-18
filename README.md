@@ -42,4 +42,6 @@ Practice how to create a reusable JSX element component by converting any HTML t
 
 # Thanks to all Stargazers ⭐️
 
-[![Thanks to all stargazers](https://git-lister.onrender.com/api/stars/unclebay143/awesome-hackathon-projects?limit=25)](https://github.com/unclebay143/react-jsx-tag-components)
+[![Thanks to all stargazers](https://git-lister.onrender.com/api/stars/unclebay143/react-jsx-tag-components?limit=25)](https://github.com/unclebay143/react-jsx-tag-components)
+
+
