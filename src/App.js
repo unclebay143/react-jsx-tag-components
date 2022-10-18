@@ -6,33 +6,15 @@ import { Documenter } from "./pages/home/Documenter";
 function App() {
   return (
     <Routes>
-      <Route
-        index
-        element={
-          <Documenter
-            title={h1_details.title}
-            codeSnippet={h1_details.codeSnippet}
-          />
-        }
-      />
+      <Route index element={<Documenter componentDetails={h1_details} />} />
       <Route
         path='/h1'
-        element={
-          <Documenter
-            title={h1_details.title}
-            codeSnippet={h1_details.codeSnippet}
-          />
-        }
+        element={<Documenter componentDetails={h1_details} />}
       />
 
       <Route
         path='/h2'
-        element={
-          <Documenter
-            title={h2_details.title}
-            codeSnippet={h2_details.codeSnippet}
-          />
-        }
+        element={<Documenter componentDetails={h2_details} />}
       />
     </Routes>
   );
