@@ -4,8 +4,8 @@ import { sidebarLinks } from "./sidebar-links";
 
 const Sidebar = () => {
   return (
-    <aside className='col-span-2 h-full mx-8'>
-      <p className='mb-4'>Contents</p>
+    <aside className='col-span-2 h-full'>
+      <p className='mb-4'>Table of Contents</p>
       <ul className='list-disc list-inside'>
         {sidebarLinks.map(({ label, to }) => {
           return <LinksWithActiveClass to={to}>{label}</LinksWithActiveClass>;
