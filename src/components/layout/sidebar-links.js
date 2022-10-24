@@ -7,4 +7,8 @@ export const sidebarLinks = [
     label: "h2",
     to: "/h2",
   },
+  {
+    label: "a",
+    to: "/a",
+  },
 ];
