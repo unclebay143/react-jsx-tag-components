@@ -31,4 +31,8 @@ export const sidebarLinks = [
 		label: 'dialog',
 		to: '/dialog',
 	},
+	{
+		label: 'div',
+		to: '/div',
+	},
 ];
