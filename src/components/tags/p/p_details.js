@@ -30,7 +30,7 @@ export const p_details = {
 			{ name: 'Blog', url: 'https://godswilludoh.substack.com/' },
 		],
 		socials_theme: {
-			tailwind_bg_color: 'bg-pink-400',
+			tailwind_bg_color: 'bg-blue-400',
 			tailwind_text_color: 'text-white',
 		},
 	},
