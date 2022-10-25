@@ -8,6 +8,10 @@ export const sidebarLinks = [
     to: '/h2',
   },
   {
+    label: 'h3',
+    to: '/h3',
+  },
+  {
     label: 'a',
     to: '/a',
   },
