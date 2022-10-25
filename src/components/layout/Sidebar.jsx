@@ -4,7 +4,7 @@ import { sidebarLinks } from "./sidebar-links";
 
 const Sidebar = () => {
   return (
-    <aside className='col-span-2 h-full'>
+    <aside className='h-full col-span-2'>
       <p className='mb-4 font-medium'>Table of Contents</p>
       <ul className='list-disc list-inside'>
         {sidebarLinks.map(({ label, to }) => {
@@ -24,13 +24,14 @@ function LinksWithActiveClass({ children, to, ...props }) {
   let match = useMatch({ path: resolved.pathname, end: true });
 
   return (
-    <li className='mb-3 px-2 uppercase'>
+    <li className='px-2 mb-3 uppercase'>
       <Link
-        style={{ textDecoration: match ? "underline" : "none" }}
+        className={`${match ? "underline text-gray-500" : "none"}`}
         to={to}
         {...props}
       >
         {children}
+        {match && " 👈🏽"}
       </Link>
     </li>
   );
