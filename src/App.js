@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import { a_details } from "./components/tags/a/a_details";
 import { h1_details } from "./components/tags/h1/h1_details";
 import { h2_details } from "./components/tags/h2/h2_details";
+import { dialog_details } from "./components/tags/dialog/dialog_details";
 import { Documenter } from "./pages/home/Documenter";
 
 function App() {
@@ -19,6 +20,11 @@ function App() {
       />
 
       <Route path="/a" element={<Documenter componentDetails={a_details} />} />
+
+      <Route
+        path="/dialog"
+        element={<Documenter componentDetails={dialog_details} />}
+      />
     </Routes>
   );
 }
