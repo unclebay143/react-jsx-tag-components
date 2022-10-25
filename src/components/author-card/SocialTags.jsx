@@ -6,6 +6,7 @@ const SocialTags = ({ socials, socials_theme }) => {
         {socials?.map(({ name, url }) => {
           return (
             <a
+              key={name}
               href={url}
               target='_blank'
               className={`inline-flex ${tailwind_bg_color} ${tailwind_text_color} items-center leading-none px-2.5 py-1.5 text-sm font-medium text-skin-inverted rounded-full border border-skin-input`}

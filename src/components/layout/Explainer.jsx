@@ -1,7 +1,6 @@
 import React from "react";
-import { CodeBlock } from "../codehighlight/CodeBlock";
 import AuthorCard from "../author-card/AuthorCard";
-import { h1_details } from "../tags/h1/h1_details";
+import { CodeBlock } from "../codehighlight/CodeBlock";
 
 const Explainer = ({ details }) => {
   const { title, subtitle, language, codeSnippet, githubURL, author } = details;
@@ -14,11 +13,11 @@ const Explainer = ({ details }) => {
         </h2>
       </section>
       <section className='mt-10 flex flex-col h-full shadow w-full p-5 rounded-md'>
-        <section>
+        {/* <section>
           <h3 className='text-md text-gray-700 font-semibold'>
-            {/* {title} Component */}
+            {title} Component
           </h3>
-        </section>
+        </section> */}
         <section className='py-4 h-full w-full align-baseline'>
           <CodeBlock language={language} codeSnippet={codeSnippet} />
         </section>
