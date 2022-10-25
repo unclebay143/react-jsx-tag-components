@@ -4,6 +4,7 @@ import { h1_details } from './components/tags/h1/h1_details';
 import { h2_details } from './components/tags/h2/h2_details';
 import { img_details } from './components/tags/img/img_details';
 import { p_details } from './components/tags/p/p_details';
+import { dialog_details } from "./components/tags/dialog/dialog_details";
 import { Documenter } from './pages/home/Documenter';
 
 function App() {
@@ -27,6 +28,11 @@ function App() {
 				element={<Documenter componentDetails={img_details} />}
 			/>
 			<Route path='/p' element={<Documenter componentDetails={p_details} />} />
+
+      <Route
+        path="/dialog"
+        element={<Documenter componentDetails={dialog_details} />}
+      />
 		</Routes>
 	);
 }
