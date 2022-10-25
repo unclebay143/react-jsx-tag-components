@@ -4,43 +4,48 @@ import { h1_details } from './components/tags/h1/h1_details';
 import { h2_details } from './components/tags/h2/h2_details';
 import { img_details } from './components/tags/img/img_details';
 import { p_details } from './components/tags/p/p_details';
-import { dialog_details } from "./components/tags/dialog/dialog_details";
+import { dialog_details } from './components/tags/dialog/dialog_details';
 import { Documenter } from './pages/home/Documenter';
 import { h3_details } from './components/tags/h3/h3_details';
+import { h4_details } from './components/tags/h4/h4_details';
 
 function App() {
-  return (
-    <Routes>
-      <Route index element={<Documenter componentDetails={h1_details} />} />
-      <Route
-        path='/h1'
-        element={<Documenter componentDetails={h1_details} />}
-      />
+	return (
+		<Routes>
+			<Route index element={<Documenter componentDetails={h1_details} />} />
+			<Route
+				path='/h1'
+				element={<Documenter componentDetails={h1_details} />}
+			/>
 
-      <Route
-        path='/h2'
-        element={<Documenter componentDetails={h2_details} />}
-      />
+			<Route
+				path='/h2'
+				element={<Documenter componentDetails={h2_details} />}
+			/>
 
-      <Route path='/a' element={<Documenter componentDetails={a_details} />} />
+			<Route path='/a' element={<Documenter componentDetails={a_details} />} />
 
-      <Route
-        path='/img'
-        element={<Documenter componentDetails={img_details} />}
-      />
-      <Route path='/p' element={<Documenter componentDetails={p_details} />} />
+			<Route
+				path='/img'
+				element={<Documenter componentDetails={img_details} />}
+			/>
+			<Route path='/p' element={<Documenter componentDetails={p_details} />} />
 
-      <Route
-        path='/dialog'
-        element={<Documenter componentDetails={dialog_details} />}
-      />
+			<Route
+				path='/dialog'
+				element={<Documenter componentDetails={dialog_details} />}
+			/>
 
-      <Route
-        path='/h3'
-        element={<Documenter componentDetails={h3_details} />}
-      />
-    </Routes>
-  );
+			<Route
+				path='/h3'
+				element={<Documenter componentDetails={h3_details} />}
+			/>
+			<Route
+				path='/h4'
+				element={<Documenter componentDetails={h4_details} />}
+			/>
+		</Routes>
+	);
 }
 
 export default App;
