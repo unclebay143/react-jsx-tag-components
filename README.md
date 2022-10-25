@@ -10,6 +10,7 @@ Practice how to create a reusable JSX element component by converting any HTML t
 - Prism-react-renderer
 
 ## How to Contribute?
+- Create an issue about the JSX tag you want to contribute (let people know that it's taken)
 - Clone [this](https://github.com/unclebay143/react-jsx-tag-components) repository
 - Run `yarn install` to install the dependencies
 - Create your own branch
