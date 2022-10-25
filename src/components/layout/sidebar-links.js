@@ -11,4 +11,8 @@ export const sidebarLinks = [
     label: "a",
     to: "/a",
   },
+  {
+    label: "img",
+    to: "/img",
+  },
 ];
