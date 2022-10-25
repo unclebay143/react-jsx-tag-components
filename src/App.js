@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import { a_details } from './components/tags/a/a_details';
 import { h1_details } from './components/tags/h1/h1_details';
 import { h2_details } from './components/tags/h2/h2_details';
+import { img_details } from './components/tags/img/img_details';
 import { p_details } from './components/tags/p/p_details';
 import { Documenter } from './pages/home/Documenter';
 
@@ -20,6 +21,11 @@ function App() {
 			/>
 
 			<Route path='/a' element={<Documenter componentDetails={a_details} />} />
+
+			<Route
+				path='/img'
+				element={<Documenter componentDetails={img_details} />}
+			/>
 			<Route path='/p' element={<Documenter componentDetails={p_details} />} />
 		</Routes>
 	);
