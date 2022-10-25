@@ -40,12 +40,16 @@ Check the live website [here](https://react-jsx-tag-components.vercel.app/).
 
 
 
-# Kudos to all Contributors 🍻
-[![Contributors](https://contrib.rocks/image?repo=unclebay143/react-jsx-tag-components)](https://github.com/unclebay143/react-jsx-tag-components/#readme)
+
 
 
 # Thanks to all Stargazers ⭐️
 
 [![Thanks to all stargazers](https://git-lister.onrender.com/api/stars/unclebay143/react-jsx-tag-components?limit=30)](https://github.com/unclebay143/react-jsx-tag-components)
 
+
+# Kudos to all Contributors 🍻
+<a href="https://github.com/unclebay143/react-jsx-tag-components/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=unclebay143/react-jsx-tag-components" />
+</a>
 
