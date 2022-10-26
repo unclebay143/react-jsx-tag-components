@@ -36,6 +36,10 @@ export const sidebarLinks = [
 		to: '/dialog',
 	},
 	{
+		label: 'div',
+		to: '/div',
+	},
+	{
 		label: 'details',
 		to: '/details',
 	},
