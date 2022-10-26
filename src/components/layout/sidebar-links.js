@@ -16,6 +16,10 @@ export const sidebarLinks = [
 		to: '/h4',
 	},
 	{
+		label: 'h5',
+		to: '/h5',
+	},
+	{
 		label: 'a',
 		to: '/a',
 	},
@@ -34,5 +38,9 @@ export const sidebarLinks = [
 	{
 		label: 'div',
 		to: '/div',
+	},
+	{
+		label: 'details',
+		to: '/details',
 	},
 ];

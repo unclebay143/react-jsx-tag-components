@@ -7,8 +7,10 @@ import { p_details } from './components/tags/p/p_details';
 import { dialog_details } from './components/tags/dialog/dialog_details';
 import { Documenter } from './pages/home/Documenter';
 import { h3_details } from './components/tags/h3/h3_details';
+import { details_details } from './components/tags/details/details_details';
 import { h4_details } from './components/tags/h4/h4_details';
 import { div_details } from './components/tags/div/div_details';
+import { h5_details } from './components/tags/h5/h5_details';
 
 function App() {
 	return (
@@ -41,6 +43,7 @@ function App() {
 				path='/h3'
 				element={<Documenter componentDetails={h3_details} />}
 			/>
+
 			<Route
 				path='/h4'
 				element={<Documenter componentDetails={h4_details} />}
@@ -48,6 +51,15 @@ function App() {
 			<Route
 				path='/div'
 				element={<Documenter componentDetails={div_details} />}
+			/>
+			<Route
+				path='/h5'
+				element={<Documenter componentDetails={h5_details} />}
+			/>
+
+			<Route
+				path='/details'
+				element={<Documenter componentDetails={details_details} />}
 			/>
 		</Routes>
 	);
