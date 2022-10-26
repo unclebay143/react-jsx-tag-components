@@ -9,50 +9,55 @@ import { Documenter } from './pages/home/Documenter';
 import { h3_details } from './components/tags/h3/h3_details';
 import { details_details } from './components/tags/details/details_details';
 import { h4_details } from './components/tags/h4/h4_details';
+import { h5_details } from './components/tags/h5/h5_details';
 
 function App() {
 	return (
-    <Routes>
-      <Route index element={<Documenter componentDetails={h1_details} />} />
-      <Route
-        path='/h1'
-        element={<Documenter componentDetails={h1_details} />}
-      />
+		<Routes>
+			<Route index element={<Documenter componentDetails={h1_details} />} />
+			<Route
+				path='/h1'
+				element={<Documenter componentDetails={h1_details} />}
+			/>
 
-      <Route
-        path='/h2'
-        element={<Documenter componentDetails={h2_details} />}
-      />
+			<Route
+				path='/h2'
+				element={<Documenter componentDetails={h2_details} />}
+			/>
 
-      <Route path='/a' element={<Documenter componentDetails={a_details} />} />
+			<Route path='/a' element={<Documenter componentDetails={a_details} />} />
 
-      <Route
-        path='/img'
-        element={<Documenter componentDetails={img_details} />}
-      />
-      <Route path='/p' element={<Documenter componentDetails={p_details} />} />
+			<Route
+				path='/img'
+				element={<Documenter componentDetails={img_details} />}
+			/>
+			<Route path='/p' element={<Documenter componentDetails={p_details} />} />
 
-      <Route
-        path='/dialog'
-        element={<Documenter componentDetails={dialog_details} />}
-      />
+			<Route
+				path='/dialog'
+				element={<Documenter componentDetails={dialog_details} />}
+			/>
 
-      <Route
-        path='/h3'
-        element={<Documenter componentDetails={h3_details} />}
-      />
+			<Route
+				path='/h3'
+				element={<Documenter componentDetails={h3_details} />}
+			/>
 
-      <Route
-        path='/h4'
-        element={<Documenter componentDetails={h4_details} />}
-      />
+			<Route
+				path='/h4'
+				element={<Documenter componentDetails={h4_details} />}
+			/>
+			<Route
+				path='/h5'
+				element={<Documenter componentDetails={h5_details} />}
+			/>
 
-      <Route
-        path='/details'
-        element={<Documenter componentDetails={details_details} />}
-      />
-    </Routes>
-  );
+			<Route
+				path='/details'
+				element={<Documenter componentDetails={details_details} />}
+			/>
+		</Routes>
+	);
 }
 
 export default App;
