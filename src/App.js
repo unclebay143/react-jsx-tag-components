@@ -9,8 +9,8 @@ import { Documenter } from './pages/home/Documenter';
 import { h3_details } from './components/tags/h3/h3_details';
 import { details_details } from './components/tags/details/details_details';
 import { h4_details } from './components/tags/h4/h4_details';
-import { div_details } from './components/tags/div/div_details';
 import { h5_details } from './components/tags/h5/h5_details';
+import { button_details } from './components/tags/button/button_details';
 
 function App() {
 	return (
@@ -49,10 +49,6 @@ function App() {
 				element={<Documenter componentDetails={h4_details} />}
 			/>
 			<Route
-				path='/div'
-				element={<Documenter componentDetails={div_details} />}
-			/>
-			<Route
 				path='/h5'
 				element={<Documenter componentDetails={h5_details} />}
 			/>
@@ -60,6 +56,10 @@ function App() {
 			<Route
 				path='/details'
 				element={<Documenter componentDetails={details_details} />}
+			/>
+			<Route
+				path='/button'
+				element={<Documenter componentDetails={button_details} />}
 			/>
 		</Routes>
 	);
