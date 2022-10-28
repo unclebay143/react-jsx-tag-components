@@ -47,4 +47,8 @@ export const sidebarLinks = [
 		label: 'button',
 		to: '/button',
 	},
+	{
+		label: 'small',
+		to: '/small',
+	},
 ];
