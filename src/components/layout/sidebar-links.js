@@ -43,4 +43,8 @@ export const sidebarLinks = [
 		label: 'details',
 		to: '/details',
 	},
+	{
+		label: 'br',
+		to: '/br',
+	},
 ];
