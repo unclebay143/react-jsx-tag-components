@@ -51,4 +51,8 @@ export const sidebarLinks = [
 		label: 'small',
 		to: '/small',
 	},
+	{
+		label: 'form',
+		to: '/form',
+	},
 ];

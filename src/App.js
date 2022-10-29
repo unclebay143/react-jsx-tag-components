@@ -12,6 +12,7 @@ import { h4_details } from './components/tags/h4/h4_details';
 import { h5_details } from './components/tags/h5/h5_details';
 import { button_details } from './components/tags/button/button_details';
 import { small_details } from './components/tags/small/small_details';
+import { form_details } from './components/tags/form/form_details';
 
 function App() {
 	return (
@@ -65,6 +66,10 @@ function App() {
 			<Route
 				path='/small'
 				element={<Documenter componentDetails={small_details} />}
+			/>
+			<Route
+				path='/form'
+				element={<Documenter componentDetails={form_details} />}
 			/>
 		</Routes>
 	);
