@@ -55,9 +55,12 @@ export const sidebarLinks = [
     label: "br",
     to: "/br",
   },
-
   {
     label: "span",
     to: "/span",
+  },
+  {
+    label: "main",
+    to: "/main",
   },
 ];

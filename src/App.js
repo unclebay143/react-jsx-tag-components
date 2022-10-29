@@ -15,6 +15,7 @@ import { button_details } from "./components/tags/button/button_details";
 import { div_details } from "./components/tags/div/div_details";
 import { br_details } from "./components/tags/br/br_details";
 import { span_details } from "./components/tags/span/span_details";
+import { main_details } from "./components/tags/main/main_details";
 
 function App() {
   return (
@@ -80,6 +81,10 @@ function App() {
       <Route
         path="/span"
         element={<Documenter componentDetails={span_details} />}
+      />
+      <Route
+        path="/main"
+        element={<Documenter componentDetails={main_details} />}
       />
     </Routes>
   );
