@@ -1,3 +1,4 @@
+import React from "react";
 const SocialTags = ({ socials, socials_theme }) => {
   const { tailwind_bg_color, tailwind_text_color } = socials_theme || {};
   return (

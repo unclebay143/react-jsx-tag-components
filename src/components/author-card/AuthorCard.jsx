@@ -1,13 +1,14 @@
 import React from "react";
 import SocialTags from "./SocialTags";
-
+import ThemeContext from "../../context/ThemeContext";
 const AuthorCard = ({ author }) => {
   const { name, github_image_url, brief, socials, socials_theme } =
     author || {};
+  const { currentTheme } = React.useContext(ThemeContext)
   return (
-    <section className='mt-10 flex flex-col h-full shadow w-full p-5 rounded-md'>
+    <section className={`${currentTheme === 'light' ? 'shadow-[#262626] shadow-md mt-10 flex flex-col h-full w-full p-5 rounded-md text-black' : 'shadow mt-10 flex flex-col h-full w-full p-5 rounded-md text-black'}`}>
       <section>
-        <h3 className='text-md text-gray-700 font-semibold'>
+        <h3 className={`${currentTheme === 'light' ? 'text-white font-semibold' : 'text-black font-semibold'}`}>
           Contributor's Profile
         </h3>
       </section>

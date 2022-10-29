@@ -1,10 +1,12 @@
 import React from "react";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
+import ThemeContext from "../../context/ThemeContext";
 import { sidebarLinks } from "./sidebar-links";
 
 const Sidebar = () => {
+  const { currentTheme } = React.useContext(ThemeContext)
   return (
-    <aside className='h-full col-span-2'>
+    <aside className={`${currentTheme === 'light' ? 'h-full col-span-2 bg-black text-white' : 'h-full col-span-2 bg-white text-black'}`}>
       <p className='mb-4 font-medium'>Table of Contents</p>
       <ul className='list-disc list-inside'>
         {sidebarLinks.map(({ label, to }) => {
