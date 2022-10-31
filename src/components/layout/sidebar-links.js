@@ -63,4 +63,8 @@ export const sidebarLinks = [
     label: "main",
     to: "/main",
   },
+  {
+    label: "aside",
+    to: "/aside",
+  },
 ];

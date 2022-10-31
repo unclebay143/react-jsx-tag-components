@@ -16,6 +16,7 @@ import { button_details } from "./components/tags/button/button_details";
 import { br_details } from "./components/tags/br/br_details";
 import { span_details } from "./components/tags/span/span_details";
 import { main_details } from "./components/tags/main/main_details";
+import { aside_details } from "./components/tags/aside/aside_details";
 
 function App() {
   return (
@@ -79,20 +80,23 @@ function App() {
       />
 
       <Route
-        path="/div"
-        element={<Documenter componentDetails={div_details} />}
-      />
-      <Route
         path="/br"
         element={<Documenter componentDetails={br_details} />}
       />
+
       <Route
         path="/span"
         element={<Documenter componentDetails={span_details} />}
       />
+
       <Route
         path="/main"
         element={<Documenter componentDetails={main_details} />}
+      />
+
+      <Route
+        path="/aside"
+        element={<Documenter componentDetails={aside_details} />}
       />
     </Routes>
   );
