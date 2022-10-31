@@ -1,4 +1,4 @@
-export const aside = (props) => {
+export const Aside = (props) => {
   const { text, classes, styles, children, ...others } = props;
   return (
     <aside className={classes} style={styles} {...others}>

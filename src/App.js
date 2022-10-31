@@ -17,6 +17,7 @@ import { br_details } from "./components/tags/br/br_details";
 import { span_details } from "./components/tags/span/span_details";
 import { main_details } from "./components/tags/main/main_details";
 import { aside_details } from "./components/tags/aside/aside_details";
+import { section_details } from "./components/tags/section/section_details";
 
 function App() {
   return (
@@ -97,6 +98,11 @@ function App() {
       <Route
         path="/aside"
         element={<Documenter componentDetails={aside_details} />}
+      />
+
+      <Route
+        path="/section"
+        element={<Documenter componentDetails={section_details} />}
       />
     </Routes>
   );
