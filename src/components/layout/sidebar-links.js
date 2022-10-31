@@ -20,6 +20,10 @@ export const sidebarLinks = [
 		to: '/h5',
 	},
 	{
+		label: 'h6',
+		to: '/h6',
+	},
+	{
 		label: 'a',
 		to: '/a',
 	},
