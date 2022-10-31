@@ -14,6 +14,7 @@ import { h6_details } from './components/tags/h6/h6_details';
 import { button_details } from './components/tags/button/button_details';
 import { div_details } from './components/tags/div/div_details';
 import { br_details } from './components/tags/br/br_details';
+import { small_details } from './components/tags/small/small_details';
 
 function App() {
 	return (
@@ -75,6 +76,10 @@ function App() {
 			<Route
 				path='/br'
 				element={<Documenter componentDetails={br_details} />}
+			/>
+			<Route
+				path='/small'
+				element={<Documenter componentDetails={small_details} />}
 			/>
 		</Routes>
 	);
