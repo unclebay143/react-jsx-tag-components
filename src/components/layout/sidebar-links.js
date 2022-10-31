@@ -55,4 +55,8 @@ export const sidebarLinks = [
 		label: 'br',
 		to: '/br',
 	},
+	{
+		label: 'small',
+		to: '/small',
+	},
 ];
