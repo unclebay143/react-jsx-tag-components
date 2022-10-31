@@ -13,7 +13,6 @@ import { h4_details } from "./components/tags/h4/h4_details";
 import { h5_details } from "./components/tags/h5/h5_details";
 import { h6_details } from "./components/tags/h6/h6_details";
 import { button_details } from "./components/tags/button/button_details";
-import { div_details } from "./components/tags/div/div_details";
 import { br_details } from "./components/tags/br/br_details";
 import { span_details } from "./components/tags/span/span_details";
 import { main_details } from "./components/tags/main/main_details";
